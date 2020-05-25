@@ -12,6 +12,13 @@
 <h1 align="center">Customer Confirmation / Success Page</h1>
 <hr>
 <br>
- The customer is confirmed : ${customer.firstName } ${customer.lastName }
+ The customer is confirmed : ${customer.firstName } ${customer.lastName } 
+ <br>
+ Free Passes: ${customer.freepasses}
+ <br>
+ <br>
+ Postal Code: ${customer.postalCode}
+ <br>
+  
 </body>
 </html>

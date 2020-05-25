@@ -21,6 +21,12 @@
 				<f:errors path="lastName" cssClass="error"></f:errors> <!-- this error message will be shown once the form is submited and if there is an error -->
 	
 	<br><br>
+	Free Passes: <f:input path="freepasses"/>   <!-- path="freepasses" this maps the input to the field in our class -->
+	<f:errors path="freepasses" cssClass="error"></f:errors>
+	<br><br>
+	Postal Code: <f:input path="postalCode"/>   
+	<f:errors path="postalCode" cssClass="error"></f:errors>
+	<br><br>
 	<input type="submit">
 	</f:form>
 </body>

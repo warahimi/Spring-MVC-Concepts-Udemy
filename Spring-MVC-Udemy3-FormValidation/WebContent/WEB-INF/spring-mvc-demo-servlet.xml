@@ -30,6 +30,11 @@
 	</bean>
 	
 	
+	<!-- load the custom message Resources -->
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames" value="resources/messages"></property> <!-- specify the properties where to look for the file -->
+	</bean>
+	
 
 </beans>
 

@@ -26,6 +26,9 @@ public class CustomerController {
 	{																				//Spring will store the resutlt of the validation in the BindingResult object, we can query this BindingResult object	
 		//these binding will happend behind the Scene by Spring 
 		
+		System.out.println(theBindingResult);
+		System.out.println("\n\n\n");
+		
 		
 		//check the BindingResult object to check if it has error
 		if(theBindingResult.hasErrors())
